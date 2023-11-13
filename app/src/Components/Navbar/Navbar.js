@@ -11,6 +11,7 @@ const Navbar = () => {
     <>
       <div className="dekstop-navbar">
         <div className="flex flex-row justify-between item-center w-[100vw] pt-4 pl-10 pr-10">
+          <Link to='/'>
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">
               <img
@@ -26,6 +27,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
+          </Link>
 
           <div className="text-lg font-semibold flex justify-center items-center gap-12 pr-0">
             <div>
@@ -58,6 +60,7 @@ const Navbar = () => {
 
       <div className="mobile-navbar">
         <div className="flex justify-between items-center pl-2 pr-2 pt-4">
+          <Link to='/'>
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">
               <img
@@ -73,6 +76,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
+          </Link>
 
           <div className="flex justify-center items-center">
             <AiOutlineMenu size={25} className={`${hamburger?"show":"hide"}`} onClick={()=>
