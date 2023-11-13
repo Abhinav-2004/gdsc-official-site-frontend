@@ -90,11 +90,31 @@ const Navbar = () => {
         </div>
         {cross?<>
             <div className="hamburger-option entry text-xl font-semibold">
-              <Link to='/'><div className="option-css">Home</div></Link>
-              <Link to='/about'><div className="option-css">About Us</div></Link>
-              <Link to='/projects'><div className="option-css">Projects</div> </Link>
-              <Link to='/team'><div className="option-css">Team</div></Link>
-              <Link to='/contact'><div className="option-css">Contact Us</div></Link>
+              <Link to='/'><div className="option-css"><button onClick={()=>
+              {setHamburger(true);
+                setCross(false);
+                console.log('cross')
+              }}>Home</button></div></Link>
+              <Link to='/about'><div className="option-css"><button onClick={()=>
+              {setHamburger(true);
+                setCross(false);
+                console.log('cross')
+              }}>About Us</button></div></Link>
+              <Link to='/projects'><div className="option-css"><button onClick={()=>
+              {setHamburger(true);
+                setCross(false);
+                console.log('cross')
+              }}>Projects</button></div> </Link>
+              <Link to='/team'><div className="option-css"><button onClick={()=>
+              {setHamburger(true);
+                setCross(false);
+                console.log('cross')
+              }}>Team</button></div></Link>
+              <Link to='/contact'><div className="option-css"><button onClick={()=>
+              {setHamburger(true);
+                setCross(false);
+                console.log('cross')
+              }}>Contact Us</button></div></Link>
             </div>
               
             </>:<></>}
