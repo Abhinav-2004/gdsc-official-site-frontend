@@ -2,9 +2,11 @@ import React from 'react'
 
 const Homepage = () => {
   return (
+    <>
     <div>
-      Welcome to GDSC
+      Welcome to GDSC 
     </div>
+    </>
   )
 }
 
