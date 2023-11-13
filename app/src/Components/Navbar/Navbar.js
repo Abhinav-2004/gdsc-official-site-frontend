@@ -89,8 +89,8 @@ const Navbar = () => {
 
         </div>
         {cross?<>
-            <div className="hamburger-option entry text-xl">
-              <Link to='/'><div className="option-css pt-[4vh]">Home</div></Link>
+            <div className="hamburger-option entry text-xl font-semibold">
+              <Link to='/'><div className="option-css">Home</div></Link>
               <Link to='/about'><div className="option-css">About Us</div></Link>
               <Link to='/projects'><div className="option-css">Projects</div> </Link>
               <Link to='/team'><div className="option-css">Team</div></Link>
