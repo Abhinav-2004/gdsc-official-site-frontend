@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1250px) {
+    .dekstop-navbar{
+        display:none;
+    }
+  }
+
+  @media only screen and (min-width: 1250px) {
+    .mobile-navbar{
+        display:none;
+    }
+  }
+
+@keyframes entry {
+    0%{
+        opacity: 0;
+        scale: 0;
+    }
+    25%{
+        opacity: 0.25;
+        scale: 0.25;
+    }
+    50%{
+        opacity: 0.50;
+        scale:0.50;
+    }
+    75%{
+        opacity: 0.75;
+        scale: 0.75;
+    }
+    100%{
+        opacity: 1;
+        scale:1;
+    }
+}
+
+.hide{
+    display: none;
+}
+.show{
+    animation:entry 0.1s;
+    transition: 0.1s all;
+}
+.hamburger-options{
+    z-index: 100;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.option-css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:3vh;
+}
