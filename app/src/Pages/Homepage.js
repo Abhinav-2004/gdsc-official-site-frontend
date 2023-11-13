@@ -4,7 +4,7 @@ const Homepage = () => {
   return (
     <>
     <div>
-      Welcome to GDSC 
+      
     </div>
     </>
   )
