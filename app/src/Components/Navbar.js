@@ -23,7 +23,7 @@ const Navbar = () => {
         <div><Link to='/contact'>Contact Us</Link></div>
       </div>
 
-      <div className='flex justify-center items-center gap-10'>
+      <div className='flex justify-center items-center gap-2'>
 
         <Link to='/join/community'><Button colorScheme='messenger'>Join our Community</Button></Link>
         <Link to='/join/faq'></Link><Button colorScheme='messenger'>FAQ ?</Button>
