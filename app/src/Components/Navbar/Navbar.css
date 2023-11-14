@@ -40,6 +40,21 @@
     animation:entry 0.1s;
     transition: 0.1s all;
 }
+
+
+.hamburger-menu{
+    background-color: white;
+    z-index: 90;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    animation-name: entry;
+    animation-duration: 0.15s;
+}
+
 .hamburger-options{
     z-index: 100;
     position: absolute;
