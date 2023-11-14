@@ -83,7 +83,7 @@ const Events = () => {
                     <div className='flex justify-center items-center text-center text-sm font-bold text-[#729a3e]'>
                         {element.name}
                     </div>
-                    <div className='flex justify-center items-center text-center pt-6 pb-4 text-xs'>
+                    <div className='flex justify-center items-center text-center pt-6 pb-6 text-xs'>
                         {element.desc}
                     </div>
                 </div>
@@ -105,7 +105,7 @@ const Events = () => {
                     <div className='flex justify-center items-center text-center text-sm font-bold text-[#729a3e]'>
                         {element.name}
                     </div>
-                    <div className='flex justify-center items-center text-center text-xs pt-6 pb-4'>
+                    <div className='flex justify-center items-center text-center text-xs pt-6 pb-6'>
                         {element.desc}
                     </div>
                 </div>
