@@ -86,12 +86,12 @@ const Navbar = () => {
             <AiOutlineMenu size={25} className={`${hamburger?"show":"hide"}`} onClick={()=>
               {setHamburger(false);
                 setCross(true);
-                console.log('hide');
+                //console.log('hide');
               }}/>
             <RxCrossCircled size={25} className={`${cross?"show":"hide"}`} onClick={()=>
               {setHamburger(true);
                 setCross(false);
-                console.log('cross')
+                //console.log('cross')
               }}/>
           </div>
 
