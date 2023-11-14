@@ -68,5 +68,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:5vh;
+    margin-top:2.5vh;
+    margin-bottom: 2.5vh;
 }
