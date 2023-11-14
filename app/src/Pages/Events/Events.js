@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Events = () => {
-    const eventList=[{date:"10:12:2022",name:"GDSC Annual Event", desc:"GDSC Silicon Chapter Annual event" },
-    {date:"10:12:2023",name:"GDSC Annual Event", desc:"GDSC Silicon Chapter Annual event" }
+    const eventList=[{date:"10/12/2022",name:"GDSC Annual Event", desc:"GDSC Silicon Chapter Annual event" },
+    {date:"10/12/2023",name:"GDSC Annual Event", desc:"GDSC Silicon Chapter Annual event" }
 ]
   return (
     <div className='flex flex-col justify-center items-center mt-6 w-[100vw]'>
@@ -16,7 +16,7 @@ const Events = () => {
             <div className='flex justify-center items-center'>
                 <img src='https://i.imgur.com/VlKwVWe.gif' className='w-[30vw]'  /></div>
             <div className='flex flex-col justify-center items-center'>
-            <div className='flex justify-center items-center text-xl font-bold text-[#729a3e] mb-4'>
+            <div className='flex justify-center items-center text-xl font-bold text-[#00000071] mb-4'>
                     {element.date}
                 </div>
                 
@@ -38,7 +38,7 @@ const Events = () => {
         <div className='flex justify-center items-center gap-10'>
             
             <div className='flex flex-col justify-center items-center'>
-            <div className='flex justify-center items-center text-xl font-bold text-[#729a3e] mb-4'>
+            <div className='flex justify-center items-center text-xl font-bold text-[#00000071] mb-4'>
                     {element.date}
                 </div>
                 
