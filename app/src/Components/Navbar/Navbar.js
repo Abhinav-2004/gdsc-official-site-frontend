@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import {AiOutlineMenu} from 'react-icons/ai';
 import {RxCrossCircled} from 'react-icons/rx';
+
 const Navbar = () => {
   const [hamburger,setHamburger]=useState(true);
   const [cross, setCross]=useState(false);
@@ -35,6 +36,9 @@ const Navbar = () => {
             </div>
             <div>
               <Link to="/about">About Us</Link>
+            </div>
+            <div>
+              <Link to="/events">Events</Link>
             </div>
             <div>
               <Link to="/projects">Projects</Link>
@@ -93,7 +97,7 @@ const Navbar = () => {
 
         </div>
         {cross?<>
-            <div className="hamburger-option entry text-xl font-semibold">
+            <div className="hamburger-menu text-xl font-semibold">
               <Link to='/'><div className="option-css"><button onClick={()=>
               {setHamburger(true);
                 setCross(false);
@@ -104,6 +108,11 @@ const Navbar = () => {
                 setCross(false);
                 console.log('cross')
               }}>About Us</button></div></Link>
+              <Link to='/events'><div className="option-css"><button onClick={()=>
+              {setHamburger(true);
+                setCross(false);
+                console.log('cross')
+              }}>Events</button></div></Link>
               <Link to='/projects'><div className="option-css"><button onClick={()=>
               {setHamburger(true);
                 setCross(false);
