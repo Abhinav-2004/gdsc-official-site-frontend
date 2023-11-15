@@ -2,7 +2,7 @@ import React from 'react'
 
 const Teams = () => {
   return (<>
-  hello teams
+  Meet our team
     </>)
 }
 
