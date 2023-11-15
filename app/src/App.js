@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar/Navbar'
 import { ChakraProvider } from '@chakra-ui/react';
 import Projects from './Pages/Projects/Projects';
 import Events from './Pages/Events/Events';
+import Teams from './Pages/Teams/Team';
 const App = () => {
   return (<>
   <ChakraProvider>
@@ -14,6 +15,7 @@ const App = () => {
       <Route path='/' element={<Homepage/>}/>
       <Route path='/projects' element={<Projects/>}/>
       <Route path='/events' element={<Events/>}/>
+      <Route path='/team' element={<Teams/>}/>
     </Routes>
       
   </BrowserRouter>
