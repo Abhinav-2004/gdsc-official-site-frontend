@@ -1,6 +1,9 @@
 import styles from "./Team.module.css"
 import manu from "./Images/IMG_0328.png"
 import loria from "./Images/Loria.png"
+import kittu from "./Images/kittu.png"
+import ashu from "./Images/ashu.jpg"
+import dharma from "./Images/dharma.png"
 export const Team = () =>{
     return(
         <div className={styles.container}>
@@ -12,7 +15,7 @@ export const Team = () =>{
                 <div className={styles.team_wrap}>
                     <div className={styles.team_member}>
                         <div className={styles.team_img}>
-                            <img src={manu}/>
+                            <img src={kittu}/>
                             <div className={styles.overlay}>
                                 <div className={styles.team_details}>
                                     <p>GDSC WEB LEAD</p>
@@ -89,7 +92,7 @@ export const Team = () =>{
                 <div className={styles.team_wrap}>
                     <div className={styles.team_member}>
                         <div className={styles.team_img}>
-                            <img src={manu}/>
+                            <img src={ashu}/>
                             <div className={styles.overlay}>
                                 <div className={styles.team_details}>
                                     <p>CORE MEMBER</p>
@@ -109,7 +112,7 @@ export const Team = () =>{
                 <div className={styles.team_wrap}>
                     <div className={styles.team_member}>
                         <div className={styles.team_img}>
-                            <img src={manu}/>
+                            <img src={dharma}/>
                             <div className={styles.overlay}>
                                 <div className={styles.team_details}>
                                     <p>CORE MEMBER</p>
