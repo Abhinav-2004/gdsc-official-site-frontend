@@ -17,6 +17,9 @@ img{
     justify-content: center;
     align-items: center;
 }
+.heading{
+    margin-top: 45px;
+}
 .heading h1{
     font-size: 40px;
 }
