@@ -37,6 +37,7 @@ export const footer = () =>{
                         </p>
                     </div>
                 </div>
+                <br />
                 <hr class="mb-4 "/>
                 <div class="row align-items-center">
                     <div class="col-md-7 col-lg-8">
