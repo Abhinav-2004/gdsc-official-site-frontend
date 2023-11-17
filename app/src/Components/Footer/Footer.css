@@ -1,4 +1,7 @@
 
+.site-footer {
+    margin-top: 50px;
+}
 .site-footer .container  p :hover {
     color: white; 
     cursor: pointer; 
