@@ -4,6 +4,7 @@ import loria from "./Images/Loria.png"
 import kittu from "./Images/kittu.png"
 import ashu from "./Images/ashu.jpg"
 import dharma from "./Images/dharma.png"
+import richa from "./Images/WhatsApp Image 2023-11-16 at 01.31.03.jpeg"
 export const Team = () =>{
     return(
         <div className={styles.container}>
@@ -53,7 +54,7 @@ export const Team = () =>{
                 <div className={styles.team_wrap}>
                     <div className={styles.team_member}>
                         <div className={styles.team_img}>
-                            <img src={manu}/>
+                            <img src={richa}/>
                             <div className={styles.overlay}>
                                 <div className={styles.team_details}>
                                     <p>CORE MEMBER</p>
