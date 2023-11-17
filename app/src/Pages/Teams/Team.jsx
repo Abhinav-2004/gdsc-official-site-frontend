@@ -21,9 +21,9 @@ export const Team = () =>{
                                 <div className={styles.team_details}>
                                     <p>GDSC WEB LEAD</p>
                                     <div className={styles.socials}>
-                                        <a href="#"><span class="fa fa-facebook"></span></a>
-                                        <a href="#"><span class="fa fa-github"></span></a>
-                                        <a href="#"><span class="fa fa-linkedin"></span></a>
+                                        <a href="#"><span class="fab fa-facebook"></span></a>
+                                        <a href="#"><span class="fab fa-github"></span></a>
+                                        <a href="#"><span class="fab fa-linkedin"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -40,9 +40,9 @@ export const Team = () =>{
                                 <div className={styles.team_details}>
                                     <p>CORE MEMBER</p>
                                     <div className={styles.socials}>
-                                        <a href="#"><span class="fa fa-facebook"></span></a>
-                                        <a href="#"><span class="fa fa-github"></span></a>
-                                        <a href="https://www.linkedin.com/in/sreedharam-manohar-9bb893234/"><span class="fa fa-linkedin"></span></a>
+                                        <a href="#"><span class="fab fa-facebook"></span></a>
+                                        <a href="#"><span class="fab fa-github"></span></a>
+                                        <a href="https://www.linkedin.com/in/sreedharam-manohar-9bb893234/"><span class="fab fa-linkedin"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -59,9 +59,9 @@ export const Team = () =>{
                                 <div className={styles.team_details}>
                                     <p>CORE MEMBER</p>
                                     <div className={styles.socials}>
-                                        <a href="#"><span class="fa fa-facebook"></span></a>
-                                        <a href="#"><span class="fa fa-github"></span></a>
-                                        <a href="#"><span class="fa fa-linkedin"></span></a>
+                                        <a href="#"><span class="fab fa-facebook"></span></a>
+                                        <a href="#"><span class="fab fa-github"></span></a>
+                                        <a href="#"><span class="fab fa-linkedin"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -78,9 +78,9 @@ export const Team = () =>{
                                 <div className={styles.team_details}>
                                     <p>CORE MEMBER</p>
                                     <div className={styles.socials}>
-                                        <a href="#"><span class="fa fa-facebook"></span></a>
-                                        <a href="#"><span class="fa fa-github"></span></a>
-                                        <a href="#"><span class="fa fa-linkedin"></span></a>
+                                        <a href="#"><span class="fab fa-facebook"></span></a>
+                                        <a href="#"><span class="fab fa-github"></span></a>
+                                        <a href="#"><span class="fab fa-linkedin"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -98,9 +98,9 @@ export const Team = () =>{
                                 <div className={styles.team_details}>
                                     <p>CORE MEMBER</p>
                                     <div className={styles.socials}>
-                                        <a href="#"><span class="fa fa-facebook"></span></a>
-                                        <a href="#"><span class="fa fa-github"></span></a>
-                                        <a href="#"><span class="fa fa-linkedin"></span></a>
+                                        <a href="#"><span class="fab fa-facebook"></span></a>
+                                        <a href="#"><span class="fab fa-github"></span></a>
+                                        <a href="#"><span class="fab fa-linkedin"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -118,9 +118,9 @@ export const Team = () =>{
                                 <div className={styles.team_details}>
                                     <p>CORE MEMBER</p>
                                     <div className={styles.socials}>
-                                        <a href="#"><span class="fa fa-facebook"></span></a>
-                                        <a href="#"><span class="fa fa-github"></span></a>
-                                        <a href="#"><span class="fa fa-linkedin"></span></a>
+                                        <a href="#"><span class="fab fa-facebook"></span></a>
+                                        <a href="#"><span class="fab fa-github"></span></a>
+                                        <a href="#"><span class="fab fa-linkedin"></span></a>
                                     </div>
                                 </div>
                             </div>
