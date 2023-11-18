@@ -8,6 +8,7 @@ export const Footer1 = () =>{
                     <h4>Feedback</h4>
                     <a href="#">Your Opinion Matters!</a>
                 </div>
+                <br/>
                 <div className="two">
                     <h4>Useful Links</h4>
                   
@@ -23,6 +24,7 @@ export const Footer1 = () =>{
                         
                             <a href="#" >Machine Learning</a>
                 </div>
+                <br/>
                 <div className="three">
                     <h4>Contact Us</h4>
                     <a style={{color:"gray"}}>
@@ -31,6 +33,7 @@ export const Footer1 = () =>{
                     <br/>
                     <a href="#" ><i className="fas fa-envelope"></i> Email- team@dscsitbbsr.org</a>
                 </div>
+                <br/>
             </div>
             <br/>
            
