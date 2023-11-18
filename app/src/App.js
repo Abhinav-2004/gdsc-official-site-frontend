@@ -2,7 +2,7 @@ import React from 'react'
 import Homepage from './Pages/Homepage/Homepage'
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Navbar from './Components/Navbar/Navbar'
-import Footer from "./Components/Footer/Footer"
+import Footer1 from "./Components/Footer/Footer1"
 import { ChakraProvider } from '@chakra-ui/react';
 import Projects from './Pages/Projects/Projects';
 import Events from './Pages/Events/Events';
@@ -18,7 +18,7 @@ const App = () => {
       <Route path='/events' element={<Events/>}/>
       <Route path='/team' element={<Team/>}/>
     </Routes>
-  <Footer/>    
+  <Footer1 />    
   </BrowserRouter>
   </ChakraProvider>
     </>)

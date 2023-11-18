@@ -30,7 +30,7 @@ const Navbar = () => {
           </div>
           </Link>
 
-          <div className=" navi text-lg font-semibold flex justify-center items-center gap-12 pr-0">
+          <div className=" text-lg font-semibold flex justify-center items-center gap-12 pr-0">
             <div>
               <Link to="/">Home</Link>
             </div>
