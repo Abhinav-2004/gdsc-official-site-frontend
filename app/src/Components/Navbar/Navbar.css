@@ -71,3 +71,8 @@
     margin-top:2.5vh;
     margin-bottom: 2.5vh;
 }
+
+.navi Link:hover{
+  color: black !important ;
+  text-decoration: none;
+}
