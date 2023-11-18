@@ -23,10 +23,14 @@
   }
   .second_half{
     border-top:2px solid gray;
+    text-align: center;
   }
   .second_half p{
     margin: 0 auto;
     margin-top: 23px;
+  }
+  .third_half{
+    text-align: center;
   }
   .third_half span{
     line-height: 37px;
