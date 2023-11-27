@@ -1,8 +1,14 @@
 import './AboutUs.css'
+import {motion} from 'framer-motion';
 
 export default function AboutUs(){
+    const fadeIn={
+        hidden: {opacity: 0},
+        visible: {opacity: 1},
+    };
     return(
         <>
+        <motion.div initial="hidden" animate="visible" variants={fadeIn} className="flex flex-col items-center p-4 my-2">
             <div className="flex flex-col items-center p-4 my-2">
                 <h1 className="text-2xl font-semibold text-center" style ={{color:"#393646" }}>
                         ABOUT US
@@ -45,6 +51,7 @@ export default function AboutUs(){
                 </div>
 
             </div>
+        </motion.div>
         </>
     );
 }
