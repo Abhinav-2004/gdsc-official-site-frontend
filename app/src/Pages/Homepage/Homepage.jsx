@@ -86,9 +86,9 @@ export const Homepage = () =>{
       </div>
     </section>
     <section class="last_part" id="contact">
-      <div class="container">
-        <div class="head_logo" style={{textAlign:"center"}}>
-          <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/events/small-logo.png" style={{width:"100px",textAlign:"center"}}></img>
+      <div class>
+        <div class="head_logo">
+          <img style={{textAlign:"center"}}  src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/events/small-logo.png" style={{width:"100px"}}/>
         </div>
         <div class="row" style={{paddingLeft:"140px",paddingRight:"140px"}}>
           <div class="col-md-4 icon">

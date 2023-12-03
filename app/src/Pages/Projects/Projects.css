@@ -1,0 +1,13 @@
+@media only screen and (max-width: 600px) {
+  .dekstop-project img{
+    width:80vw;
+  }  
+
+}
+  .dekstop-project{
+    display: flex;
+    margin-top: 6vh;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+  }
