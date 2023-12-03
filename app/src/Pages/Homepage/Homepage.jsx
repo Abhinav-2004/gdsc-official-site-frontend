@@ -88,26 +88,26 @@ export const Homepage = () =>{
     <section class="last_part" id="contact">
       <div class="container">
         <div class="head_logo" style={{textAlign:"center"}}>
-          <img  src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/events/small-logo.png" style={{width:"100px",textAlign:"center"}}/>
+          <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/events/small-logo.png" style={{width:"100px",textAlign:"center"}}></img>
         </div>
         <div class="row" style={{paddingLeft:"140px",paddingRight:"140px"}}>
           <div class="col-md-4 icon">
             <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend"><i class="fab fa-facebook" style={{fontSize:"48px"}} ></i></a>
           </div>
           <div class="col-md-4 icon">
-            <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend"><i class="fab fa-twitter" ></i></a>
+            <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend"><i class="fab fa-twitter" style={{fontSize:"48px"}} ></i></a>
           </div>
           <div class="col-md-4 icon">
-            <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend"><i class="fab fa-linkedin" ></i></a>
+            <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend"><i class="fab fa-linkedin" style={{fontSize:"48px"}} ></i></a>
           </div>
           <div class="col-md-4 icon">
-            <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend"><i class="fab fa-instagram" ></i></a>
+            <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend"><i class="fab fa-instagram" style={{fontSize:"48px"}} ></i></a>
           </div>
           <div class="col-md-4 icon">
-            <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend"><i class="fab fa-github" ></i></a>
+            <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend"><i class="fab fa-github" style={{fontSize:"48px"}} ></i></a>
           </div>
           <div class="col-md-4 icon">
-            <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend"><i class="fab fa-medium" ></i></a>
+            <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend"><i class="fab fa-medium" style={{fontSize:"48px"}} ></i></a>
           </div>
         </div>
       </div>
