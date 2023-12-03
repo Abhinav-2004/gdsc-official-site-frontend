@@ -118,10 +118,7 @@ iframe {
     height: auto;
 }
 img{
-    vertical-align: middle;
     text-align: center;
-    box-sizing: border-box;
-    border-style: none;
 }
 a{
     text-decoration: none;
