@@ -1,54 +1,118 @@
-import React from 'react';
-import './Homepage.module.css';
-
-export const Homepage = () => {
-  return (
-    <div>
-      <section className="hero-banner bg-light py-5">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-5 offset-lg-1 order-lg-1">
-              <img src="https://www.markuptag.com/images/web-development-vector.png" className="img-fluid" alt="Web Development" />
-            </div>
-            <div className="col-lg-6">
-              <h1 className="mt-3">Explore the World of GDSC</h1>
-              <p className="lead text-secondary my-5">Join us on a journey of innovation and collaboration. Discover the endless possibilities of technology with Google Developer Student Clubs at SIT.</p>
-              <a href="#" className="btn btn-outline-secondary btn-lg border">Get Involved</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div className="container my-5">
-        <section className="dark-grey-text">
-          <div className="row pr-lg-5">
-            <div className="col-md-7 mb-4">
-              <div className="view">
-                <img src={require(`../images/stack.png`)} className="img-fluid" alt="Sample Image" />
+import "./Homepage.css"
+import event1 from "./images/1673504707267.png"
+import project1 from "./images/662-6621239_isys-free-business-solutions-assessment-vector-images-business.png"
+export const Homepage = () =>{
+  return(
+    <div class="site">
+        <div className="upper_part overlay" id="home">
+       <div class="container">
+          <div class="row align-items-center justify-content-center">
+              <div class="col-md-6" id="home1">
+                
               </div>
-            </div>
-            <div className="col-md-5 d-flex align-items-center">
-              <div>
-                <h3 className="font-weight-bold mb-4">Innovative Solutions with GDSC</h3>
-                <p>Unlock creativity and build impactful solutions. GDSC SIT is your gateway to hands-on learning and cutting-edge technology.</p>
-                <button type="button" className="btn btn-orange btn-rounded mx-0">Join Now</button>
+              <div class="col-md-6" id="home2">
+                  <h1>Developer Student Clubs</h1>
+                  <div>
+                  <a class="typeform-share button btn" href="https://tally.so#tally-open=wbj9Q2&amp;tally-layout=modal&amp;tally-width=700&amp;tally-emoji-text=👋&amp;tally-emoji-animation=wave">Apply for Membership</a>
+                  </div>
               </div>
-            </div>
           </div>
-        </section>
-      </div>
-
-      <section className="px-md-5 mx-md-5 text-center white-text grey p-5 z-depth-1" style={{ backgroundImage: 'url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)' }}>
-        <div className="row justify-content-center">
-          <div className="col-xl-8 col-md-10">
-            <i className="fas fa-gem fa-2x mb-4"></i>
-            <h3 className="font-weight-bold">Empower. Innovate. Inspire.</h3>
-            <p>Join GDSC SIT and be part of a community that empowers you to innovate and inspires you to make a difference. Let's build a future together!</p>
-            <a href="#" className="btn btn-outline-white btn-md waves-effect" role="button">Explore Projects</a>
-          </div>
-        </div>
-      </section>
+       </div>
     </div>
-  );
+    <div class="box">
+        <div class="middle_part yt_image" id="about">
+          <div class="container">
+              <div class="row">
+                <div class="col-md-7" id="about1">
+                    <iframe src="https://www.youtube.com/embed/wTLe8nwJ_Lw"></iframe>
+                </div>
+                <div class="col-md-5" id="about2">
+                <p>Developer Student Club (DSC) is a Google Developers
+                   program for university students to learn mobile and web 
+                   development skills. The club will be open to any student, 
+                   ranging from novice developers who are just starting, to 
+                   advanced developers who want to further their skills. The 
+                   club is intended as a space for students to try out new 
+                   ideas and collaborate to solve mobile and web development 
+                   problems</p>.
+                </div>
+              </div>
+          </div>
+
+        </div>
+    </div>
+    <section class="project_section" id="project">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                <div class="card" id="event" >
+                  <a href="/event">
+                    <img class="images" src={event1}>
+
+                    </img>
+                    <div class="event_content">
+                      <h3>Events</h3>
+                      <p style={{color:"black"}}>DSC SIT BBSR has organised a number of workshops
+                        , fun events and meetups with students in and around SIT BBSR to promote learning and developer skills among 
+                        themselves.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card" id="projects" >
+                  <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend">
+                    <img class="images" src={project1}>
+
+                    </img>
+                    <div class="event_content">
+                      <h3>Projects</h3>
+                      <p style={{color:"black"}}>DSC SIT BBSR has organised a number of workshops
+                        , fun events and meetups with students in and around SIT BBSR to promote learning and developer skills among 
+                        themselves.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+          </div>
+        </div>
+    </section>
+    <section>
+      <div class="sit">
+        <h2>Where to Find Us?</h2>
+      </div>
+      <div class="location">
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7481.6090619184215!2d85.80742104232787!3d20.34969221845048!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1908e064769e73%3A0x9288172f3a98c7a4!2sSilicon%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1701608935466!5m2!1sen!2sin" style={{border:"0",allowfullscreen:"",loading:"lazy",referrerpolicy:"no-referrer-when-downgrade",width:"100%",height:"450px"}}  ></iframe>
+      </div>
+    </section>
+    <section class="last_part" id="contact">
+      <div class="container">
+        <div class="head_logo">
+          <img  src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/events/small-logo.png" style={{width:"100px"}}/>
+        </div>
+        <div class="row" style={{paddingLeft:"140px",paddingRight:"140px"}}>
+          <div class="col-md-4 icon">
+            <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend"><i class="fab fa-facebook" ></i></a>
+          </div>
+          <div class="col-md-4 icon">
+            <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend"><i class="fab fa-twitter" ></i></a>
+          </div>
+          <div class="col-md-4 icon">
+            <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend"><i class="fab fa-linkedin" ></i></a>
+          </div>
+          <div class="col-md-4 icon">
+            <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend"><i class="fab fa-instagram" ></i></a>
+          </div>
+          <div class="col-md-4 icon">
+            <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend"><i class="fab fa-github" ></i></a>
+          </div>
+          <div class="col-md-4 icon">
+            <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend"><i class="fab fa-medium" ></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  )
 }
 export default Homepage
