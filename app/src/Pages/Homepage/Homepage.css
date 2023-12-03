@@ -162,7 +162,7 @@ p {
     font-weight: 600px;
 }
 
-i{
+.last_part > i{
     font-size: 48px;
     color: #000;
 }
