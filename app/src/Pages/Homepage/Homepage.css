@@ -4,6 +4,7 @@
 }
 .site{
     margin-top: 45px;
+    overflow-x: hidden;
 }
 #home{
     background-image:url("./images/—Pngtree—memphis\ decorative\ pattern\ pattern\ memphis_3927512.png")
