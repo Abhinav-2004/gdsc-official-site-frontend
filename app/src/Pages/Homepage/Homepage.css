@@ -104,7 +104,7 @@ iframe {
     border-left-width: 0px;
     border-right-width: 0px;
 }
-.marquee {
+/* .marquee {
     
     background:linear-gradient(rgb(239, 146, 146),rgb(141, 141, 232),rgb(140, 243, 140),rgb(241, 241, 112));
     color: black;
@@ -138,6 +138,25 @@ iframe {
     font-weight: 700;
     margin-right: 20px;
     margin-top: 20px;
+} */
+marquee{
+    background:linear-gradient(rgb(239, 146, 146),rgb(141, 141, 232),rgb(140, 243, 140),rgb(241, 241, 112));
+  
+    width: 100%;
+   
+    
+    
+}
+marquee img{
+    padding: 0.7%;
+    width: 100px;
+    margin: 0px auto;
+}
+marquee span{
+    font-size: 1.7rem;
+    color: #000;
+    font-weight: 600;
+
 }
 
 #project .card {
@@ -253,12 +272,4 @@ a:hover{
     flex: 0 0 33.33333%;
     max-width: 33.33333%;
 }
-}
-@keyframes marquee {
-    0% {
-        transform: translate(0, 0);
-    }
-    100% {
-        transform: translate(-100%, 0);
-    }
 }
