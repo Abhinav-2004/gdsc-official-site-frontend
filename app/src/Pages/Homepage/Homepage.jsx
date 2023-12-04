@@ -46,7 +46,7 @@ export const Homepage = () =>{
           <div class="row">
               <div class="col-md-6">
                 <div class="card" id="event" >
-                  <a href="/event">
+                  <a href="/events">
                     <img class="images" src={event1}>
 
                     </img>
