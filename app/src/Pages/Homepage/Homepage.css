@@ -165,7 +165,7 @@ a{
 a:hover{
     text-decoration: none;
 }
-p {
+/* p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -173,7 +173,7 @@ p {
     margin-inline-end: 0px;
     margin-top: 0px;
     margin-bottom: 1rem;
-}
+} */
 .event_content{
     margin-top: -20px;
     flex: 1;
