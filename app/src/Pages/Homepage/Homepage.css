@@ -105,10 +105,10 @@ iframe {
     border-right-width: 0px;
 }
 .marquee {
-    
     background:linear-gradient(rgb(239, 146, 146),rgb(141, 141, 232),rgb(140, 243, 140),rgb(241, 241, 112));
     color: black;
-    white-space: nowrap;
+    white-space-collapse: collapse;
+    text-wrap: nowrap;
     overflow: hidden;
     box-sizing: border-box;
     height: 75px;
