@@ -61,7 +61,7 @@ export const Homepage = () =>{
               </div>
               <div class="col-md-6">
                 <div class="card" id="projects" >
-                  <a href="https://github.com/Abhinav-2004/gdsc-official-site-frontend">
+                  <a href="/projects">
                     <img class="images" src={project1}>
 
                     </img>
