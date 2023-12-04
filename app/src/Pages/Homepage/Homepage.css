@@ -104,6 +104,41 @@ iframe {
     border-left-width: 0px;
     border-right-width: 0px;
 }
+.marquee {
+    
+    background:linear-gradient(rgb(239, 146, 146),rgb(141, 141, 232),rgb(140, 243, 140),rgb(241, 241, 112));
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 75px;
+    cursor: pointer;
+    margin: 0;
+}
+.marquee p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+    text-transform: uppercase;
+}
+.marq_item{
+    margin-bottom: 20px;
+}
+.marquee img{
+    padding: 0.7%;
+    width: 90px;
+    margin: 0px auto;
+}
+.marquee a{
+    transition: 0.5s;
+}
+.marq_item {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
 #project .card {
     border: 0;
     margin-bottom: 30px;
@@ -217,4 +252,12 @@ p {
     flex: 0 0 33.33333%;
     max-width: 33.33333%;
 }
+}
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
 }
