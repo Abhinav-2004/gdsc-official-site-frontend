@@ -42,7 +42,7 @@ export const Homepage = () =>{
         </div>
         <a href="/events">
             <div class="marquee">
-                <p >
+                <p style={{display:"inline-block"}}>
                   <span class="marq_item">
                     Events Coming Soon!
                   </span>
