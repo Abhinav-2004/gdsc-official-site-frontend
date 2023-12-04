@@ -116,7 +116,7 @@ iframe {
     margin: 0;
 }
 .marquee p {
-    display: inline-block;
+    display: inline-flex;
     padding-left: 100%;
     animation: marquee 15s linear infinite;
     text-transform: uppercase;
@@ -137,6 +137,7 @@ iframe {
     font-size: 1.5rem;
     font-weight: 700;
     margin-right: 20px;
+    margin-top: 20px;
 }
 
 #project .card {
