@@ -116,7 +116,7 @@ iframe {
     margin: 0;
 }
 .marquee a {
-    display: inline-block;
+    display: inline;
     padding-left: 100%;
     animation: marquee 15s linear infinite;
     text-transform: uppercase;
