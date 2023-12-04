@@ -116,6 +116,7 @@ marquee img{
     padding: 0.7%;
     width: 100px;
     margin: 0px auto;
+    display:inline;
 }
 marquee span{
     font-size: 1.7rem;
