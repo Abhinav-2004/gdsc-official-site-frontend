@@ -41,7 +41,7 @@ export const Homepage = () =>{
 
         </div>
         
-        <marquee >
+        <marquee>
           <span>Events Coming Soon</span>
           <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/devfest%20poster.png" alt="gdsc" />
                   <img src="https://pbs.twimg.com/media/FifX22YVUAAPkTM.jpg" alt="gdsc" />
