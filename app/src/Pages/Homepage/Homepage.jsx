@@ -40,7 +40,8 @@ export const Homepage = () =>{
           </div>
 
         </div>
-        <marquee>
+        <a href="/events">
+          <marquee>
           <span>Events Coming Soon</span>
           <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/devfest%20poster.png" alt="gdsc" />
                   <img src="https://pbs.twimg.com/media/FifX22YVUAAPkTM.jpg" alt="gdsc" />
@@ -48,6 +49,7 @@ export const Homepage = () =>{
                   <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/20230922_232642_0000.png" alt="gdsc" />
                   <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/launching%20date-01.jpg" alt="gdsc" />
         </marquee>
+        </a>
     </div>
     <section class="project_section" id="project">
         <div class="container">
