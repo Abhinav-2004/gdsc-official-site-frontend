@@ -104,7 +104,7 @@ iframe {
     border-left-width: 0px;
     border-right-width: 0px;
 }
-/* .marquee {
+.marquee {
     
     background:linear-gradient(rgb(239, 146, 146),rgb(141, 141, 232),rgb(140, 243, 140),rgb(241, 241, 112));
     color: black;
@@ -126,7 +126,7 @@ iframe {
 }
 .marquee img{
     padding: 0.7%;
-    width: 90px;
+    width: 100px;
     margin: 0px auto;
 }
 .marquee a{
@@ -138,26 +138,6 @@ iframe {
     font-weight: 700;
     margin-right: 20px;
     margin-top: 20px;
-} */
-marquee{
-    background-color: #323131;
-  
-    width: 100%;
-   
-    
-    
-}
-marquee img{
-    padding: 0.7%;
-    width: 100px;
-    margin: 0px auto;
-    display: inline;
-}
-marquee span{
-    font-size: 1.7rem;
-    color: #ece5e5;
-    font-weight: 600;
-
 }
 
 #project .card {
