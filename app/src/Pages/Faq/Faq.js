@@ -12,8 +12,8 @@ import './Faq.css';
 const Faq = () => {
   return (
     <>
-      <div className="container">
-        <div className="image">
+      <div className="faq-cont">
+        <div className="decor">
           <img src={require(`./Image/decor.png`)} alt="Decoration" />
         </div>
         <div className="hero">

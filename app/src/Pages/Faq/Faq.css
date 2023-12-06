@@ -20,9 +20,8 @@
     width: 40%;
     
 }
-/* Media Query for screens smaller than 768px (adjust as needed) */
 @media screen and (max-width: 768px) {
-  .container {
+  .faq-cont {
       flex-direction: column;
   }
 
@@ -30,7 +29,7 @@
       width: 100%;
   }
 
-  .image {
+  .decor {
       width: 100%;
       margin-top: 20px;
   }
