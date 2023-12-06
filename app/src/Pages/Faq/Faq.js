@@ -12,7 +12,7 @@ import './Faq.css';
 const Faq = () => {
   return (
     <>
-      <div className="faq-cont">
+      <div className="faq_cont">
         <div className="decor">
           <img src={require(`./Image/decor.png`)} alt="Decoration" />
         </div>
