@@ -1,0 +1,39 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+    margin-top: 50px;
+    padding: 30px;
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.container {
+    display:flex;
+
+}
+.image{
+    margin-top: 50px;
+    padding: 30px;
+    width: 40%;
+    
+}
+/* Media Query for screens smaller than 768px (adjust as needed) */
+@media screen and (max-width: 768px) {
+  .container {
+      flex-direction: column;
+  }
+
+  .hero {
+      width: 100%;
+  }
+
+  .image {
+      width: 100%;
+      margin-top: 20px;
+  }
+}
+  
+  

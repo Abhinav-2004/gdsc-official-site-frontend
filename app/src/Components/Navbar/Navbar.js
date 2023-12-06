@@ -55,7 +55,7 @@ const Navbar = () => {
             <Link to="/join/community">
               <Button colorScheme="messenger">Join our Community</Button>
             </Link>
-            <Link to="/join/faq">
+            <Link to="/faq">
               <Button colorScheme="messenger">FAQ ?</Button>
             </Link>
           </div>
@@ -127,7 +127,12 @@ const Navbar = () => {
               {setHamburger(true);
                 setCross(false);
                 console.log('cross')
-              }}>Contact Us</button></div></Link>
+              }}>Contact</button></div></Link>
+              <Link to='/faq'><div className="option-css"><button onClick={()=>
+              {setHamburger(true);
+                setCross(false);
+                console.log('cross')
+              }}>Faq</button></div></Link>
             </div>
               
             </>:<></>}
