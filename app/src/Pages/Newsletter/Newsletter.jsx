@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ChakraProvider, Checkbox, CheckboxGroup, Input, Textarea } from '@chakra-ui/react';
+import './Newsletter.css';
 
 const MyCheckboxGroup = () => {
   const [selectedOptions, setSelectedOptions] = useState([]);
