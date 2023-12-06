@@ -9,6 +9,7 @@ import Events from './Pages/Events/Events';
 import Teams, { Team } from './Pages/Teams/Team';
 import AboutUS from './Pages/AboutUs/AboutUs';
 import Faq from './Pages/Faq/Faq';
+import Newsletter from './Pages/Newsletter/Newsletter';
 
 const App = () => {
   return (<>
@@ -22,6 +23,7 @@ const App = () => {
       <Route path='/team' element={<Team/>}/>
       <Route path='/about' element={<AboutUS/>}/>
       <Route path='/faq' element={<Faq/>}/>
+      <Route path='/newsletter' element={<Newsletter/>}/>
     </Routes>
   <Footer1 />    
   </BrowserRouter>
