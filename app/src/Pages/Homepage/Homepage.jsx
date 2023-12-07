@@ -87,6 +87,12 @@ export const Homepage = () =>{
           </div>
         </div>
     </section>
+    <section style={{textAlign:"center",marginTop:"40px"}}>
+          <h3>Sponsers</h3>
+          <a href="https://www.coca-colacompany.com/">
+              <img src="https://pbs.twimg.com/profile_images/1615430137926778882/AybyflyO_400x400.jpg" style={{width:"200px"}}/>
+          </a>
+    </section>
     <section>
       <div class="sit">
         <h2>Where to Find Us?</h2>
