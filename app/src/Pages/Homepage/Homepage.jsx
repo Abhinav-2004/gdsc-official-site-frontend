@@ -68,7 +68,7 @@ export const Homepage = () =>{
                       <h3>Events</h3>
                       <p style={{color:"black"}}>DSC SIT BBSR has organised a number of workshops
                         , fun events and meetups with students in and around SIT BBSR to promote learning and developer skills among 
-                        themselves.</p>
+                        themselve.</p>
                     </div>
                   </a>
                 </div>
