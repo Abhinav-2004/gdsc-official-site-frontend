@@ -70,25 +70,7 @@ export const Team = () =>{
                             <span style={{color:"gray"}}>Web developer</span>
                     </div>
                 </div>
-                <div className={styles.team_wrap}>
-                    <div className={styles.team_member}>
-                        <div className={styles.team_img}>
-                            <img src={loria}/>
-                            <div className={styles.overlay}>
-                                <div className={styles.team_details}>
-                                    <p>CORE MEMBER</p>
-                                    <div className={styles.socials}>
-                                        <a href="#"><span class="fab fa-facebook"></span></a>
-                                        <a href="#"><span class="fab fa-github"></span></a>
-                                        <a href="#"><span class="fab fa-linkedin"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                            <h6 className={styles.team_title}>LORIA MANJARI GARTIA</h6>
-                            <span style={{color:"gray"}}>Web developer</span>
-                    </div>
-                </div>
+                
 
                 <div className={styles.team_wrap}>
                     <div className={styles.team_member}>
