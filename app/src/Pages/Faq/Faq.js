@@ -14,7 +14,7 @@ const Faq = () => {
     <>
       <div className="faq_cont">
         <div className="decor">
-          <img src={require(`./Image/decor.png`)} alt="Decoration" />
+          <img src={require(`./Image/decor2.png`)} alt="Decoration" />
         </div>
         <div className="hero">
           <div className="master1">
@@ -23,7 +23,7 @@ const Faq = () => {
             </h1>
           </div>
           <div className="master2">
-            <Accordion defaultIndex={[0]} allowMultiple>
+            <Accordion defaultIndex={[0]} >
               <AccordionItem>
                 <h2>
                   <AccordionButton>
@@ -33,8 +33,13 @@ const Faq = () => {
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
-                <AccordionPanel pb={4}>
-                  Answer 1
+                <AccordionPanel pb={4} overflowY="auto">
+                (Straight up from the official Website) Google Developer Student Clubs (GDSC)
+                are community groups for college and university students interested in Google developer technologies.
+                Students from all undergraduate or graduate programs with an interest in growing
+                as a developer are welcome. By joining a GDSC, students grow their knowledge in a
+                peer-to-peer learning environment and build solutions for local businesses and their community.
+                GDSC KIIT is the official Google Developer Students Club chapter of Silicon Institute of Industrial Technology.
                 </AccordionPanel>
               </AccordionItem>
 
@@ -47,22 +52,22 @@ const Faq = () => {
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
-                <AccordionPanel pb={4}>
-                  Answer 2
+                <AccordionPanel pb={4} overflowY="auto">
+                Go to the GDSC event page and login and you can be a member of gdsc.
                 </AccordionPanel>
               </AccordionItem>
 
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left">
-                      How can I join GDSC SIT?
+                    <Box flex="1" textAlign="left" overflowY="auto">
+                      How can I hear about the events that you will do in future
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
-                <AccordionPanel pb={4}>
-                  Answer 3
+                <AccordionPanel pb={4} overflowY="auto">
+                Follow us on our social media profiles to get the updated
                 </AccordionPanel>
               </AccordionItem>
 
@@ -75,8 +80,8 @@ const Faq = () => {
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
-                <AccordionPanel pb={4}>
-                  Answer 4
+                <AccordionPanel pb={4}overflowY="auto">
+                Someone who is a tech enthusiast and is interested in exploring different technologies.
                 </AccordionPanel>
               </AccordionItem>
 
@@ -89,12 +94,10 @@ const Faq = () => {
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
-                <AccordionPanel pb={4}>
-                  Answer 5
+                <AccordionPanel pb={4} overflowY="auto">
+                Neither any membership fee is charged nor any event fee.
                 </AccordionPanel>
               </AccordionItem>
-
-              {/* Add more AccordionItems for additional questions and answers */}
             </Accordion>
           </div>
         </div>
