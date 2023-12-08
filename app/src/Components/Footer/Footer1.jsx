@@ -5,13 +5,13 @@ export const Footer1 = () =>{
             <div className="container">
             <div className="first_half">
                 <div className="one">
-                    <h4>Feedback</h4>
+                    <h4 style={{fontSize:"1.7rem"}}>Feedback</h4>
                     <br/>
                     <a href="#">Your Opinion Matters!</a>
                 </div>
                 <br/>
                 <div className="two">
-                    <h4>Useful Links</h4>
+                    <h4 style={{fontSize:"1.7rem"}}>Useful Links</h4>
                     <br/>
                             <a href="#">Terms of Service</a>
                             <br/>
@@ -27,7 +27,7 @@ export const Footer1 = () =>{
                 </div>
                 <br/>
                 <div className="three">
-                    <h4>Contact Us</h4>
+                    <h4 style={{fontSize:"1.7rem"}}>Contact Us</h4>
                     <br/>
                     <a style={{color:"white"}}>
                     <i className="fas fa-home"></i> Silicon Insitute Of Technology,Bhubaneswar
