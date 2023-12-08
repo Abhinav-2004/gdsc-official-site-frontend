@@ -89,7 +89,7 @@ export const Homepage = () =>{
     </section>
     <section style={{textAlign:"center",marginTop:"40px"}}>
           <h3 style={{fontSize:"1.8rem",color:"grey"}}>Sponsers</h3>
-          <p style={{marginTop:"20px",alignItems:"center",display:"flex",justifyContent:"center"}}>
+          <p style={{marginTop:"21px",alignItems:"center",display:"flex",justifyContent:"center"}}>
           <a href="https://www.coca-colacompany.com/">
               <img  src="https://pbs.twimg.com/profile_images/1615430137926778882/AybyflyO_400x400.jpg" style={{width:"200px"}}/>
           </a>
