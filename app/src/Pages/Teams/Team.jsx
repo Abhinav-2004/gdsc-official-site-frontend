@@ -4,7 +4,7 @@ import loria from "./Images/Loria.png"
 import kittu from "./Images/kittu.png"
 import ashu from "./Images/ashu.jpg"
 import dharma from "./Images/dharma.png"
-import richa from "./Images/WhatsApp Image 2023-11-16 at 01.31.03.jpeg"
+import richa from "./Images/IMG-20231119-WA0014.jpg"
 export const Team = () =>{
     return(
         <div className={styles.container}>
