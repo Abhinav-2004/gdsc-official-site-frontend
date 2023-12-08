@@ -29,7 +29,7 @@ export const Footer1 = () =>{
                 <div className="three">
                     <h4>Contact Us</h4>
                     <br/>
-                    <a style={{color:"gray"}}>
+                    <a style={{color:"white"}}>
                     <i className="fas fa-home"></i> Silicon Insitute Of Technology,Bhubaneswar
                     </a>
                     <br/>
