@@ -1,8 +1,10 @@
 .news-cont {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
+    justify-content:flex-end;
+    align-items:center;
+    
+    height: 100vh;
+    flex-direction:column; 
   }
   
   .group1 {
@@ -12,6 +14,7 @@
   .group2 {
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
   }
 
   label {

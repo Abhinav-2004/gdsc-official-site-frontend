@@ -9,10 +9,14 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+   
+    
   }
 .faq_cont {
-    display:flex;
-
+    display: flex;
+  
+  overflow: hidden;
+  
 }
 .decor{
     margin-top: 50px;
@@ -20,19 +24,43 @@
     width: 40%;
     
 }
-@media screen and (max-width: 768px) {
-  .faq_cont {
+.master2 {
+    max-height: 70vh; 
+    overflow-y: auto;
+    position:relative;
+   
+  }
+  @media screen and (min-width: 769px) {
+    .faq_cont {
+      display: flex;
+    }
+  
+    .hero {
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+      height: 100vh;
+    }
+  
+    .decor {
+      width: 40%;
+    }
+  }
+  
+  /* Media query for mobile devices and smaller screens */
+  @media screen and (max-width: 768px) {
+    .faq_cont {
       flex-direction: column;
-  }
-
-  .hero {
+    }
+  
+    .hero {
       width: 100%;
-  }
-
-  .decor {
+    }
+  
+    .decor {
       width: 100%;
       margin-top: 20px;
+    }
   }
-}
   
   
