@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {
   Accordion,
   AccordionItem,
@@ -10,6 +11,7 @@ import {
 import './Faq.css';
 
 const Faq = () => {
+
   return (
     <>
       <div className="faq_cont">
@@ -23,10 +25,11 @@ const Faq = () => {
             </h1>
           </div>
           <div className="master2">
-            <Accordion defaultIndex={[0]} >
-              <AccordionItem>
+            <Accordion defaultIndex={[0]}>
+              
+              <AccordionItem  class='acc-container'>
                 <h2>
-                  <AccordionButton>
+                  <AccordionButton _expanded={{bg:"#2C5282",color:"#90CDF4"}}>
                     <Box flex="1" textAlign="left">
                       What is GDSC SIT?
                     </Box>
@@ -39,13 +42,13 @@ const Faq = () => {
                 Students from all undergraduate or graduate programs with an interest in growing
                 as a developer are welcome. By joining a GDSC, students grow their knowledge in a
                 peer-to-peer learning environment and build solutions for local businesses and their community.
-                GDSC KIIT is the official Google Developer Students Club chapter of Silicon Institute of Industrial Technology.
+                GDSC SIT is the official Google Developer Students Club chapter of Silicon Institute of Industrial Technology.
                 </AccordionPanel>
               </AccordionItem>
 
-              <AccordionItem>
+              <AccordionItem  class='acc-container'>
                 <h2>
-                  <AccordionButton>
+                  <AccordionButton _expanded={{bg:"#2C5282",color:"#90CDF4"}}>
                     <Box flex="1" textAlign="left">
                       How can I join GDSC SIT?
                     </Box>
@@ -57,9 +60,9 @@ const Faq = () => {
                 </AccordionPanel>
               </AccordionItem>
 
-              <AccordionItem>
+              <AccordionItem  class='acc-container'>
                 <h2>
-                  <AccordionButton>
+                  <AccordionButton _expanded={{bg:"#2C5282",color:"#90CDF4"}}>
                     <Box flex="1" textAlign="left" overflowY="auto">
                       How can I hear about the events that you will do in future
                     </Box>
@@ -71,9 +74,9 @@ const Faq = () => {
                 </AccordionPanel>
               </AccordionItem>
 
-              <AccordionItem>
+              <AccordionItem  class='acc-container'>
                 <h2>
-                  <AccordionButton>
+                  <AccordionButton _expanded={{bg:"#2C5282",color:"#90CDF4"}}>
                     <Box flex="1" textAlign="left">
                     Who can participate in GDSC events?
                     </Box>
@@ -85,9 +88,9 @@ const Faq = () => {
                 </AccordionPanel>
               </AccordionItem>
 
-              <AccordionItem>
+              <AccordionItem class='acc-container'>
                 <h2>
-                  <AccordionButton>
+                  <AccordionButton _expanded={{bg:"#2C5282",color:"#90CDF4"}}>
                     <Box flex="1" textAlign="left">
                     Are there any membership fees for joining GDSC SIT?
                     </Box>
@@ -98,6 +101,7 @@ const Faq = () => {
                 Neither any membership fee is charged nor any event fee.
                 </AccordionPanel>
               </AccordionItem>
+             
             </Accordion>
           </div>
         </div>

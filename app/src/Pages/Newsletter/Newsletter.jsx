@@ -5,7 +5,7 @@ import './Newsletter.css';
 const MyCheckboxGroup = () => {
   const [selectedOptions, setSelectedOptions] = useState([]);
   const [emailSubject, setEmailSubject] = useState('');
-  const [emailBody, setEmailBody] = useState([]);
+  const [emailBody, setEmailBody] = useState('');
 
   const handleOptionChange = (values) => {
     setSelectedOptions(values);
@@ -36,14 +36,14 @@ const MyCheckboxGroup = () => {
   };
 
   return (
-    <div className='news-cont'>
-      <div className='group1'>
+    <Box className='news-cont'  >
+      <Box className='group1' bg="#F7FAFC"  boxShadow='md' p='6' rounded='md'  >
         <CheckboxGroup value={selectedOptions} onChange={handleOptionChange}>
           <HStack spacing={4}>
             <Checkbox
               value="all"
               onChange={handleSelectAll}
-              isChecked={selectedOptions.length > 0 && selectedOptions.length === 5} // Adjust the condition accordingly
+              isChecked={selectedOptions.length > 0 && selectedOptions.length === 5}
             >
               Select All
             </Checkbox>
@@ -55,9 +55,9 @@ const MyCheckboxGroup = () => {
             <Checkbox value="5">Graphics design</Checkbox>
           </HStack>
         </CheckboxGroup>
-      </div>
+      </Box>
 
-      <div className='group2'>
+      <Box className='group2'  boxShadow='dark-lg' p='6' rounded='md' bg='white'>
         <label htmlFor="subject">Email Subject:</label>
         <Input
           type="text"
@@ -66,6 +66,7 @@ const MyCheckboxGroup = () => {
           onChange={handleSubjectChange}
           placeholder="Enter email subject"
           size="lg"
+          bg="#CBD5E0"
         />
 
         <label htmlFor="body">Email Body:</label>
@@ -75,12 +76,13 @@ const MyCheckboxGroup = () => {
           onChange={handleBodyChange}
           placeholder="Enter email body"
           size="lg"
+          bg="#CBD5E0"
         />
-      </div>
-      <Button colorScheme="blue" size="lg" onClick={handleSubmit}>
+      </Box>
+      <Button colorScheme="blue" size="lg" onClick={handleSubmit} mt={4}>
         Submit
       </Button>
-    </div>
+    </Box>
   );
 };
 
