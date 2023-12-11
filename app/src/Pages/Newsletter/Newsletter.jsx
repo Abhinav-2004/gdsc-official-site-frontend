@@ -36,8 +36,15 @@ const MyCheckboxGroup = () => {
   };
 
   return (
-    <Box className='news-cont'  >
-      <Box className='group1' bg="#F7FAFC"  boxShadow='md' p='6' rounded='md'  >
+    <Box className='news-cont' >
+      <Box classname='group'h={{base: '100px', md: 'auto'}}>
+      <img
+         src={require('./Animation - 1702231432901.gif')}  
+          alt="GIF"
+          style={{ width: '200%', height: '200%', objectFit: 'cover' }}
+        />
+        </Box>
+      <Box className='group1' bg="#F7FAFC"  boxShadow='md' p={{ base: '4', md: '6' }}   w={{ base: '100%', md: '800px' }} rounded='md'  >
         <CheckboxGroup value={selectedOptions} onChange={handleOptionChange}>
           <HStack spacing={4}>
             <Checkbox
@@ -57,7 +64,7 @@ const MyCheckboxGroup = () => {
         </CheckboxGroup>
       </Box>
 
-      <Box className='group2'  boxShadow='dark-lg' p='6' rounded='md' bg='white'>
+      <Box className='group2'  boxShadow='dark-lg'   p={{ base: '4', md: '6' }} rounded='md' bg='white'  w={{ base: '70%', md: '500px' }} h={{ base: 'auto', md: '400px' }} >
         <label htmlFor="subject">Email Subject:</label>
         <Input
           type="text"
@@ -77,9 +84,10 @@ const MyCheckboxGroup = () => {
           placeholder="Enter email body"
           size="lg"
           bg="#CBD5E0"
+          h={{ base: 'auto', md: '200px' }}
         />
       </Box>
-      <Button colorScheme="blue" size="lg" onClick={handleSubmit} mt={4}>
+      <Button colorScheme="blue" size="lg" onClick={handleSubmit} mt={4} height="50px" width="150px">
         Submit
       </Button>
     </Box>
