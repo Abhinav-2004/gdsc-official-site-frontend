@@ -37,16 +37,16 @@ const MyCheckboxGroup = () => {
 
   return (
     <Box className='news-cont' >
-      <Box classname='group'h={{base: '100px', md: 'auto'}}>
+      <Box className='group'h={{base: '100px', md: 'auto'}}>
       <img
          src={require('./Animation - 1702231432901.gif')}  
           alt="GIF"
           style={{ width: '200%', height: '200%', objectFit: 'cover' }}
         />
         </Box>
-      <Box className='group1' bg="#F7FAFC"  boxShadow='md' p={{ base: '4', md: '6' }}   w={{ base: '100%', md: '800px' }} rounded='md'  >
+      <Box className='group1' bg="#F7FAFC"  boxShadow='md' p={{ base: '4', md: '6' }}  width={{ base: '100%', md: '80%' }}  mx='auto' rounded='md' h={{ base: 'auto', md: 'auto', lg: '100%' }}  >
         <CheckboxGroup value={selectedOptions} onChange={handleOptionChange}>
-          <HStack spacing={4}>
+          <HStack spacing={{ base: 2, md: 4 }} direction={{ base: 'column', md: 'row' }} align="flex-start" flexWrap="wrap" >
             <Checkbox
               value="all"
               onChange={handleSelectAll}
