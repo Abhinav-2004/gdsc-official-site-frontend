@@ -7,9 +7,11 @@ import { ChakraProvider } from '@chakra-ui/react';
 import Projects from './Pages/Projects/Projects';
 import Events from './Pages/Events/Events';
 import Teams, { Team } from './Pages/Teams/Team';
-import AboutUS from './Pages/AboutUs/AboutUs';
+import AboutUs from './Pages/AboutUs/AboutUs';
 import Faq from './Pages/Faq/Faq';
 import Newsletter from './Pages/Newsletter/Newsletter';
+import ContactUs from './Pages/ContactUs/ContactUs';
+
 
 const App = () => {
   return (<>
@@ -21,7 +23,8 @@ const App = () => {
       <Route path='/projects' element={<Projects/>}/>
       <Route path='/events' element={<Events/>}/>
       <Route path='/team' element={<Team/>}/>
-      <Route path='/about' element={<AboutUS/>}/>
+      <Route path='/about' element={<AboutUs/>}/>
+      <Route path='/contact' element={<ContactUs/>}/>
       <Route path='/faq' element={<Faq/>}/>
       <Route path='/newsletter' element={<Newsletter/>}/>
     </Routes>

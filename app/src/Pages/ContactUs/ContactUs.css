@@ -1,0 +1,44 @@
+body {
+  overflow-x: hidden;
+}
+
+.input-field {
+  padding: 8px 16px 8px 16px;
+  margin-top: 4px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.flag-dropdown {
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 9px;
+}
+
+.form-control {
+  max-width: fit-content;
+}
+
+.map2 {
+  border: 1px;
+  border-radius: 24px;
+}
+.cards {
+  display: grid;
+  /* flex-direction: column; */
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+.info {
+  padding: 24px;
+  border: 1px #909396;
+  border-radius: 24px;
+}

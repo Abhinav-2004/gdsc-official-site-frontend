@@ -16,7 +16,7 @@ export default function AboutUs(){
 
                 <div className="pt-2 mb-8 text-center">
                     <h2 className="text-xl font-semibold" style={{color: "#4F4557"}}>Empowering the Next Generation of Tech Leaders: Welcome to <strong className='text-2xl'>SIT x GDSC</strong></h2>
-                    <p className="mx-4 my-4" style={{color: "#4F4557"}}>Nestled within the vibrant academic landscape of Silicon Institute of Engineering, the Google Developer Student Club (GDSC) stands as a beacon of innovation, collaboration, and technological exploration. Our club is a vibrant community of passionate tech-enthusiasts, united by a shared desire to harness the power of Google technologies to create positive change.</p>
+                    <p className="mx-4 my-4" style={{color: "#4F4557"}}>Nestled within the vibrant academic landscape of Silicon Institute of Technology, the Google Developer Student Club (GDSC) stands as a beacon of innovation, collaboration, and technological exploration. Our club is a vibrant community of passionate tech-enthusiasts, united by a shared desire to harness the power of Google technologies to create positive change.</p>
                 </div>
 
                 {/* Image */}
